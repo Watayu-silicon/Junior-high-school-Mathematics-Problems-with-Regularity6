@@ -1,11 +1,10 @@
 package main
 import "fmt"
 func main(){
-    // Your code here!
     result1:=0
     result2:=0
     var num int
-    fmt.Scan(&num) // データを格納する変数のアドレスを指定
+    fmt.Scan(&num)
     for a:=num;a>0;a-- {
         result1 += a * a
     }
